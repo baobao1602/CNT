@@ -1,2 +1,2 @@
-# CNT
-CNT
+# HocJavaScript
+JavaScript
