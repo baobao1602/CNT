@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+</head>
+<body>
+    <h1 id="heading">HTML DOM</h1>
+    
+    <div class="box-1">
+
+        <ul>
+            <li>javascript 1</li>
+            <li>PHP 1</li>
+        </ul>
+
+        <p>html</p>
+
+    </div>
+
+    <div class="box-2">
+
+        <ul>
+            <li>javascript 2</li>
+            <li>PHP 2</li>
+        </ul>
+
+    </div>
+
+
+    <form action="" id="form-1">from-1</form>
+    <form action="" id="form-2">form-2</form>
+
+
+<!-- thêm thuộc tính (attribute) vào element-->
+ 
+    <h2>attribute</h2>
+
+
+<!-- innerText -->
+
+    <h3 class="innerText">innerText heading</h3>
+  
+
+<!--                InnerHTML vs OuterHTML : thêm element vào 1 element đã có sẵn -->
+
+    <div class="box"></div>
+
+
+<!-- OuterHTML  -->
+
+    <div class="box-outerHTML">
+        <h1 class="outerHTML">outer HTML</h1>
+    </div>
+    
+ <!--  DOM CSS -->
+
+    <div class="boxCss"></div>
+
+
+    <!-- ClassList property -->
+
+    <style>
+        .font {
+            font-size: 20px;
+        }
+
+        .blue {
+            color: blue;
+        }
+    </style>
+
+    <div class="classList-1 ClassList-2 classList-3">
+        <h5>CLASS LIST</h5>
+    </div>
+    
+    <!-- DOM events -->
+
+
+    
+ <!-- 1. attribute envents -->
+    <!-- <h1 onclick="console.log(Math.random())" 
+        class="DomEvents">DOM events</h1> -->
+
+<!-- 2. assign event using the element node -->
+
+    <!-- <h1 class="DomEvents">DOM events</h1>
+
+    <span>span 1</span>
+    <span>span 3</span>
+    <span>span 2</span> -->
+
+    <!--                ví dụ về DOM events -->
+
+    <input type="text">
+    <input type="checkbox">
+
+    <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+
+
+    <!-- PreventDefault and StopPropagation -->
+    <br>
+    <a href="https://baobao1602.github.io/Wed-Shopee/">BaoBao-Shop</a>
+
+    <br>
+
+    <a href="https://google.com.vn">Tìm kiếm</a>
+
+
+    <!--  ví dụ 2 -->
+    <!-- <style>
+        .ulSeach {
+            display: none;
+        }
+        
+        .inputSeach:focus ~ .ulSeach{
+            display: block;
+        }
+
+        
+    </style>
+
+    <br>
+    <input class="inputSeach" placeholder="Tìm kiếm">
+    <ul class="ulSeach">
+        <li>javascript</li>
+        <li>PHP</li>
+        <li>GoLang</li>
+    </ul> -->
+
+
+                    <!-- event listener -->
+    <br>
+    <button id="btn">Click me !</button>
+
+    
+
+</body>
+<script src="main.js">
+        
+</script>
+</html>
